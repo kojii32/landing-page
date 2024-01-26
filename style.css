@@ -137,6 +137,7 @@
 .divs p {
     font-size: 17px;
     text-align: center;
+    color: #1f2937;
     
     
 }
@@ -147,3 +148,35 @@
     border-radius: 8px;
 }
 
+
+.third-part {
+    width: 100%;
+    height: 370px;
+    /* border: 1px solid brown; */
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-part {
+    flex-basis: 950px;
+    height: 350px;
+    /* border: 1px solid brown; */
+    flex-direction: column;
+    display: flex;
+}
+
+.quote-part p {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote-part h2 {
+    margin-top: -3px;
+    align-self: flex-end;
+    font-size: 23px;
+    font-weight: bold;
+    color: #1f2937;
+}
