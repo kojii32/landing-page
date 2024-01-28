@@ -22,17 +22,36 @@
 }
 
 .links {
-    height: 50px;
+    height: 80px;
     width: 100%;
     display: flex;
     align-items: baseline;
+    justify-content: center;
     gap: 25px;
 }
 
 #logo {
-    font-size: 24px;
-    color: #f9faf8;
+    padding: 2px;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.other-links {
+    display: flex;
+    gap: 25px;
+    align-self: center;
+   
+}
+
+#logo img {
+    border-radius: 50%;
+    height: 54px;
+    /* display: inline; */
+    margin-right: 15px;
+    margin-top: 7px;
     
     
 }
